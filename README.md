@@ -1,14 +1,17 @@
 # ProductManagement
 
-ระบบจัดการสินค้าพัฒนาด้วย React (Frontend) และ Django (Backend) เชื่อมต่อฐานข้อมูล MongoDB
+เว็บแอปพลิเคชันระบบจัดการสินค้า เป็น Mini project ในรายวิชา Software Innovation Development and Application (ปีการศึกษา 1/2567) พัฒนาด้วย React (Frontend) และ Django (Backend) เชื่อมต่อฐานข้อมูล MongoDB ผู้ใช้งานสามารถดู เพิ่ม แก้ไข และลบสินค้าได้ผ่านหน้าเว็บ
 
 ## โครงสร้างโปรเจกต์
 
+```text
 ProductManagement/
-├── backend/ → Django REST API (เชื่อมต่อ MongoDB)
-├── frontend/ → React (Vite)
+│
+├── backend/   → Django REST API (เชื่อมต่อ MongoDB)
+├── frontend/  → React (Vite)
 ├── .gitignore
 └── README.md
+```
 
 ## เทคโนโลยีที่ใช้
 
@@ -27,7 +30,7 @@ ProductManagement/
 ### 1. Clone repo นี้
 
 ```cmd
-git clone https://github.com/<your-username>/ProductManagement.git
+git clone https://github.com/nantiwan47/ProductManagement.git
 cd ProductManagement
 ```
 
@@ -35,7 +38,7 @@ cd ProductManagement
 
 ตรวจสอบว่า MongoDB รันอยู่ที่ `localhost:27017`
 
-### 3. ติดตั้งและรัน Backend
+### 3. ติดตั้งและรัน Backend สำหรับ windows
 
 ```cmd
 cd backend
@@ -63,5 +66,9 @@ Frontend จะรันที่ `http://localhost:5173`
 ไปที่ `http://localhost:5173`
 
 
-รายละเอียดเชิงลึกของแต่ละฝั่ง (รวมขั้นตอนสร้างโปรเจกต์ตั้งแต่ศูนย์) ดูได้ที่ [`backend/README.md`](./backend/README.md) และ [`frontend/README.md`](./frontend/README.md)
-"# ProductManagement" 
+รายละเอียดเพิ่มเติมของแต่ละส่วนสามารถดูได้ที่
+
+- 📂  [`backend/README.md`](./backend/README.md)
+- 📂  [`frontend/README.md`](./frontend/README.md)
+
+เอกสารทั้งสองไฟล์อธิบายรายละเอียดการติดตั้ง โครงสร้างโปรเจกต์ และการพัฒนาในแต่ละฝั่ง
